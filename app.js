@@ -1,10 +1,4 @@
-var fruits = ["Pomme", "Banane", "Orange", "Citron"];
-
-// for (var i = 0; i < fruits.length; i++) {
-//  console.log(fruits[i]);
-// }
+var myArray = [[0.1] , [5,7,8] , [12,18]]
 
 
-var agrumes = fruits.slice(2,4);
-
-console.log(agrumes);
+console.log(myArray[1][2]);
