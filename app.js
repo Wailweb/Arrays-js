@@ -1,4 +1,7 @@
-var myArray = [[0.1] , [5,7,8] , [12,18]]
+var loup = {
+  name: "arakiller",
+  color: "white",
+  age: 5
+};
 
-
-console.log(myArray[1][2]);
+console.log(loup.color);
