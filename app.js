@@ -1,7 +1,12 @@
-var loup = {
-  name: "arakiller",
-  color: "white",
-  age: 5
-};
+var loup = new Object ();
 
-console.log(loup.color);
+  loup.name = "arakiller";
+  loup.color = "white";
+  loup.age = 5;
+
+
+
+
+for(var property in loup) {
+  console.log(loup[property]);
+}
